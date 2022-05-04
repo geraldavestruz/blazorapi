@@ -14,7 +14,18 @@ builder.Services.AddGraphQLServer()
     .AddQueryType<Query>();
 builder.Services.AddDbContext<CakeContext>(o => o.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("_myAllowSpecificOrigins",
+                      policy  =>
+                      {
+                          policy.WithOrigins("http://localhost:5012")
+                          .AllowAnyHeader()
+                            .AllowAnyMethod();
+                      });
+});
 
 
 var app = builder.Build();
@@ -29,6 +40,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseCors(MyAllowSpecificOrigins);
 
 app.MapControllers();
 app.MapGraphQL("/");
