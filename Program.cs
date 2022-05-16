@@ -1,6 +1,10 @@
+using blazorapi;
+using blazorapi.Interfaces;
+using blazorapi.Schemas.Types;
+using blazorapi.Service;
 using gqlServer.Data;
-using gqlServer.Schemas;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +14,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<DapperContext>();
+builder.Services.AddScoped<ICake,CakeService>();
 builder.Services.AddGraphQLServer()
-    .AddQueryType<Query>();
-builder.Services.AddDbContext<CakeContext>(o => o.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    .AddQueryType(q => q.Name("Query"))
+    .AddType<CakeQueryResolver>();
+// builder.Services.AddDbContext<CakeContext>(o => o.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
