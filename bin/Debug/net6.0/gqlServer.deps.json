@@ -10,6 +10,7 @@
         "dependencies": {
           "Dapper": "2.0.123",
           "HotChocolate.AspNetCore": "13.0.0-preview.19",
+          "HotChocolate.Data": "12.10.0",
           "Microsoft.EntityFrameworkCore": "7.0.0-preview.3.22175.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.0-preview.3.22175.1",
           "Swashbuckle.AspNetCore": "6.2.3",
@@ -95,6 +96,18 @@
           "lib/net6.0/HotChocolate.AspNetCore.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.0.0"
+          }
+        }
+      },
+      "HotChocolate.Data/12.10.0": {
+        "dependencies": {
+          "HotChocolate.Execution": "13.0.0-preview.19",
+          "HotChocolate.Types.CursorPagination": "13.0.0-preview.19"
+        },
+        "runtime": {
+          "lib/net6.0/HotChocolate.Data.dll": {
+            "assemblyVersion": "12.10.0.0",
+            "fileVersion": "12.10.0.0"
           }
         }
       },
@@ -1028,6 +1041,13 @@
       "sha512": "sha512-ApOZFASm1TrO61IqHvl1z7/r/aG8rz1WD/G6bxBRYfpETs5FWWj4DtE5Ed1ulL00LuPs4YXlsKlOeGabtxoQYw==",
       "path": "hotchocolate.aspnetcore/13.0.0-preview.19",
       "hashPath": "hotchocolate.aspnetcore.13.0.0-preview.19.nupkg.sha512"
+    },
+    "HotChocolate.Data/12.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A08SM/vrGrJvmjnWmDtI6errFewumscp5Ynx9IfBNZfC3/7+f3uR9bZfTXTY0azdDQGal4p76KF3e6ufXrWT2w==",
+      "path": "hotchocolate.data/12.10.0",
+      "hashPath": "hotchocolate.data.12.10.0.nupkg.sha512"
     },
     "HotChocolate.Execution/13.0.0-preview.19": {
       "type": "package",

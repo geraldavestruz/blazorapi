@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj": {}
+    "c:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj": {
+    "c:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj",
+        "projectUniqueName": "c:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj",
         "projectName": "gqlServer",
-        "projectPath": "C:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj",
+        "projectPath": "c:\\Users\\wenfetemenia\\blazorapi\\gqlServer.csproj",
         "packagesPath": "C:\\Users\\wenfetemenia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wenfetemenia\\blazorapi\\obj\\",
+        "outputPath": "c:\\Users\\wenfetemenia\\blazorapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wenfetemenia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,27 +44,31 @@
             },
             "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[13.0.0-preview.19, )"
+              "version": "[12.15.1, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[12.15.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0-preview.3.22175.1, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.0-preview.3.22175.1, )"
+              "version": "[6.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             },
             "System.Data.SQLite": {
               "target": "Package",
-              "version": "[1.0.115.5, )"
+              "version": "[1.0.116, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.3, )"
+              "version": "[4.8.4, )"
             }
           },
           "imports": [

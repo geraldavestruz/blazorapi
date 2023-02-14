@@ -5,10 +5,10 @@ using gqlServer.Models;
 
 namespace blazorapi.Schemas.Types
 {
-  [ExtendObjectType("Query")]
+  // [ExtendObjectType("Query")]
   public class CakeQueryResolver
   {
-    public List<CakeDto> GetAllCakes([Service] ICake cakeService)
+    public IEnumerable<CakeDto> GetCakes([Service] ICake cakeService)
     {
       return cakeService.GetAll();
     }

@@ -3,6 +3,7 @@ using blazorapi.Interfaces;
 using blazorapi.Schemas.Types;
 using blazorapi.Service;
 using gqlServer.Data;
+using gqlServer.Schemas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,8 +18,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<DapperContext>();
 builder.Services.AddScoped<ICake,CakeService>();
 builder.Services.AddGraphQLServer()
-    .AddQueryType(q => q.Name("Query"))
-    .AddType<CakeQueryResolver>();
+    .AddFiltering()
+    .AddQueryType<Query>();
+    // .AddQueryType(q => q.Name("Query"));
+    // .AddType<CakeQueryResolver>();
 // builder.Services.AddDbContext<CakeContext>(o => o.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";

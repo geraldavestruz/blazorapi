@@ -10,7 +10,6 @@ namespace blazorapi.Service
 {
   public class CakeService : ICake
   {
-
     public readonly DapperContext _context;
 
     public CakeService(DapperContext context)
@@ -18,15 +17,15 @@ namespace blazorapi.Service
       _context = context;
     }
 
-    public List<CakeDto> GetAll()
+    public IEnumerable<CakeDto> GetAll()
     {
       using(var conn = _context.CreateConnection())
       {
           conn.Open();
 
-          var query = "SELECT * FROM cake";
-          var cakes = conn.Query<CakeDto>(query).ToList();
-          return cakes;
+          var query = "SELECT * FROM Cake";
+          var cake = conn.Query<CakeDto>(query).ToList();
+          return cake;
       }
     }
   }

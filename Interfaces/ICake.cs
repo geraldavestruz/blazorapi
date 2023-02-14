@@ -5,6 +5,6 @@ namespace blazorapi.Interfaces
 {
     public interface ICake
     {
-        List<CakeDto> GetAll();
+        IEnumerable<CakeDto> GetAll();
     }
 }
