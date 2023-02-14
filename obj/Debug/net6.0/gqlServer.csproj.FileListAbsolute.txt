@@ -192,7 +192,6 @@ C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Language.Utf8.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Language.Visitors.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Subscriptions.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Subscriptions.InMemory.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Transport.Sockets.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Types.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Types.CursorPagination.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Types.Mutations.dll
@@ -207,17 +206,10 @@ C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.d
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
@@ -226,10 +218,6 @@ C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\System.Collections.Immutable.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -245,7 +233,6 @@ C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlit
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\gqlServer.csproj.AssemblyReference.cache
 C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\gqlServer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\gqlServer.AssemblyInfoInputs.cache
@@ -290,3 +277,8 @@ C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\wenfetemenia\blazorapi\bin\Debug\net6.0\HotChocolate.Data.dll
+C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\staticwebassets\msbuild.gqlServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\staticwebassets\msbuild.build.gqlServer.props
+C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.gqlServer.props
+C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.gqlServer.props
+C:\Users\wenfetemenia\blazorapi\obj\Debug\net6.0\staticwebassets.pack.json
