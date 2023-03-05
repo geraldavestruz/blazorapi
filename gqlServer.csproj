@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
+   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="HotChocolate.AspNetCore" Version="13.0.2" />
     <PackageReference Include="HotChocolate.Data" Version="13.0.2" />

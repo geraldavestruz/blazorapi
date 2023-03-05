@@ -10,6 +10,7 @@ namespace gqlServer.Schemas
     public class Query
     {
         [UseFiltering]
-        public IQueryable<CakeDto> GetAllCakes([Service] ICake cakeRepo) => cakeRepo.GetAll().AsQueryable();
+        public IQueryable<CakeDto> GetAllCakes([Service] ICake cakeRepo) => 
+            cakeRepo.GetAll().AsQueryable();
     }
 }

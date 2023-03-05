@@ -25,7 +25,10 @@ namespace blazorapi.Service
 
           var query = "SELECT * FROM Cake";
           var cake = conn.Query<CakeDto>(query).ToList();
+          
+          conn.Close();
           return cake;
+
       }
     }
   }
